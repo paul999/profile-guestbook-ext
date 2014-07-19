@@ -32,6 +32,12 @@ class profile_listener implements Symfony\Component\EventDispatcher\EventSubscri
         return array(
     //        'core.user_setup'            => 'load_language_on_setup',
     //        'core.page_header'            => 'add_page_header_link',
+            'core.memberlist_view_profile'  => 'add_guestbook_profile',
         );
+    }
+
+    public function add_guestbook_profile()
+    {
+
     }
 } 
