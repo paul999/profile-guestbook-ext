@@ -1,0 +1,9 @@
+services:
+    paul999.profileguestbook.listener:
+        class: paul999\profileguestbook\event\profile_listener
+        arguments:
+            - @template
+            - @user
+            - @dbal.conn
+        tags:
+            - { name: event.listener }
