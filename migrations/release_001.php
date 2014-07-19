@@ -14,7 +14,7 @@ class release_001 extends \phpbb\db\migration\migration
     public function update_data()
     {
         return array(
-            array('config.update', array('profile_guestbook_version', '0.0.1'))
+            array('config.add', array('profile_guestbook_version', '0.0.1'))
         );
     }
 }
