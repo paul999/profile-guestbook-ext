@@ -1,5 +1,6 @@
 profile-guestbook-ext
 =====================
+[![Build Status](https://travis-ci.org/paul999/profile-guestbook-ext.svg)](https://travis-ci.org/paul999/profile-guestbook-ext)
 
 # Installation
 
