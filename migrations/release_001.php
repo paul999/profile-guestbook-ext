@@ -6,9 +6,7 @@ class release_001 extends \phpbb\db\migration\migration
 {
 	static public function depends_on()
 	{
-		return array(
-
-		);
+		return array();
 	}
 
 	public function update_data()
