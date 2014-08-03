@@ -3,7 +3,7 @@
     "type": "phpbb-extension",
     "description": "A port of the profile guestbook extension for phpBB3.",
     "homepage": "https://github.com/paul999/profileguestbook",
-    "version": "0.0.1",
+    "version": "0.0.1-dev",
     "time": "2014-07-19",
     "license": "GPL-2.0",
     "authors": [{
