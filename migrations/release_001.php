@@ -2,6 +2,7 @@
 
 namespace paul999\profileguestbook\migrations;
 
+/** @noinspection PhpUndefinedClassInspection */
 class release_001 extends \phpbb\db\migration\migration
 {
 	static public function depends_on()
