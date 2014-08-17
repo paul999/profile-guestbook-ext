@@ -1,0 +1,2 @@
+parameters:
+    tables.profile_guestbook: %core.table_prefix%profile_guestbook

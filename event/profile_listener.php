@@ -5,21 +5,27 @@ namespace paul999\profileguestbook\event;
 
 class profile_listener implements Symfony\Component\EventDispatcher\EventSubscriberInterface
 {
-
+	/** @var \phpbb\user */
 	private $user;
+	/** @var \phpbb\template\template */
 	private $template;
+	/** @var \phpbb\db\driver\driver_interface */
 	private $db;
+	/** @var string */
+	private $table;
 
 	/**
 	 * @param \phpbb\template\template          $template
 	 * @param \phpbb\user                       $user
 	 * @param \phpbb\db\driver\driver_interface $db
+	 * @param string                            $table
 	 */
-	public function __construct(\phpbb\template\template $template, \phpbb\user $user, \phpbb\db\driver\driver_interface $db)
+	public function __construct(\phpbb\template\template $template, \phpbb\user $user, \phpbb\db\driver\driver_interface $db, $table)
 	{
 		$this->template = $template;
 		$this->user     = $user;
 		$this->db       = $db;
+		$this->table    = $table;
 	}
 
 	static public function getSubscribedEvents()
