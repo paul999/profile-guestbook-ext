@@ -3,7 +3,7 @@
 namespace paul999\profileguestbook\event;
 
 
-class profile_listener implements Symfony\Component\EventDispatcher\EventSubscriberInterface
+class profile_listener implements \Symfony\Component\EventDispatcher\EventSubscriberInterface
 {
 	/** @var \phpbb\user */
 	private $user;
