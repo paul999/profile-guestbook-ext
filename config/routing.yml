@@ -1,12 +1,14 @@
 paul999_profileguestbook_post_controller:
     pattern: /profileguestbook/post/{user}/
     defaults: { _controller: paul999.profileguestbook.controller:post }
+    methods:  [POST]
     requirements:
         user:  \d+
 
 paul999_profileguestbook_edit_controller:
     pattern: /profileguestbook/edit/{user}/{post}/
     defaults: { _controller: paul999.profileguestbook.controller:edit }
+    methods:  [PUT]
     requirements:
         user:  \d+
         post:  \d+
@@ -14,6 +16,7 @@ paul999_profileguestbook_edit_controller:
 paul999_profileguestbook_delete_controller:
     pattern: /profileguestbook/delete/{user}/{post}/
     defaults: { _controller: paul999.profileguestbook.controller:delete }
+    methods:  [DELETE]
     requirements:
         user:  \d+
         post:  \d+
@@ -21,6 +24,7 @@ paul999_profileguestbook_delete_controller:
 paul999_profileguestbook_report_controller:
     pattern: /profileguestbook/report/{user}/{post}/
     defaults: { _controller: paul999.profileguestbook.controller:report }
+    methods:  [GET]
     requirements:
         user:  \d+
         post:  \d+
@@ -28,6 +32,7 @@ paul999_profileguestbook_report_controller:
 paul999_profileguestbook_info_controller:
     pattern: /profileguestbook/info/{user}/{post}/
     defaults: { _controller: paul999.profileguestbook.controller:info }
+    methods:  [GET]
     requirements:
         user:  \d+
         post:  \d+
