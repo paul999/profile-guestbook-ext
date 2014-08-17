@@ -7,7 +7,9 @@ class release_001 extends \phpbb\db\migration\migration
 {
 	static public function depends_on()
 	{
-		return array();
+		return array(
+			'\paul999\profileguestbook\migrations\create_table'
+		);
 	}
 
 	public function update_data()

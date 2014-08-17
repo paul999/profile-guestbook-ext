@@ -4,8 +4,11 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5e2f6f6784d30f7c423767fab03adf61",
+    "hash": "96840f49eefed245505e517f74bf9bb2",
     "packages": [
+
+    ],
+    "packages-dev": [
         {
             "name": "gitonomy/gitlib",
             "version": "v0.1.7",
@@ -354,9 +357,6 @@
             "homepage": "http://symfony.com",
             "time": "2014-07-09 09:05:48"
         }
-    ],
-    "packages-dev": [
-
     ],
     "aliases": [
 
