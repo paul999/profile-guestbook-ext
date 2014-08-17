@@ -39,6 +39,6 @@ class profile_listener implements \Symfony\Component\EventDispatcher\EventSubscr
 
 	public function add_guestbook_profile()
 	{
-
+		$this->user->add_lang_ext('paul999/profileguestbook', 'profile_guestbook');
 	}
 }
