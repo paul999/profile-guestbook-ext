@@ -38,7 +38,7 @@ class main
 	/**
 	 * @param int $user
 	 */
-	public function postAction($user)
+	public function post($user)
 	{
 
 	}
@@ -47,7 +47,7 @@ class main
 	 * @param int $user
 	 * @param int $post
 	 */
-	public function  editAction($user, $post)
+	public function  edit($user, $post)
 	{
 
 	}
@@ -56,7 +56,7 @@ class main
 	 * @param int $user
 	 * @param int $post
 	 */
-	public function deleteAction($user, $post)
+	public function delete($user, $post)
 	{
 
 	}
@@ -65,7 +65,7 @@ class main
 	 * @param int $user
 	 * @param int $post
 	 */
-	public function reportAction($user, $post)
+	public function report($user, $post)
 	{
 
 	}
@@ -74,7 +74,7 @@ class main
 	 * @param int $user
 	 * @param int $post
 	 */
-	public function infoAction($user, $post)
+	public function info($user, $post)
 	{
 
 	}
