@@ -15,8 +15,8 @@ class create_table extends \phpbb\db\migration\migration
 				$this->table_prefix . 'profile_guestbook' => array(
 					'COLUMNS'     => array(
 						'guestbook_id'    => array('UINT', null, 'auto_increment'),
-						'user_id'         => array('UINT', null),
-						'poster_id'       => array('UINT', null),
+						'user_id'         => array('UINT', 0),
+						'poster_id'       => array('UINT', 0),
 						'post_time'       => array('TIMESTAMP', 0),
 						'bbcode_bitfield' => array('VCHAR:255', ''),
 						'bbcode_uid'      => array('VCHAR:8', ''),
