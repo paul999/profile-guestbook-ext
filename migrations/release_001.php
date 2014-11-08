@@ -2,13 +2,15 @@
 
 namespace paul999\profileguestbook\migrations;
 
-/** @noinspection PhpUndefinedClassInspection */
-class release_001 extends \phpbb\db\migration\migration
+use phpbb\db\migration\migration;
+
+class release_001 extends migration
 {
 	static public function depends_on()
 	{
 		return array(
-			'\paul999\profileguestbook\migrations\create_table'
+			'\paul999\profileguestbook\migrations\create_table',
+			'\paul999\profileguestbook\migrations\add_permissions',
 		);
 	}
 
